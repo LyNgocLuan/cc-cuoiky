@@ -1,0 +1,14 @@
+{
+  "groups": [{
+    "name": "storage",
+    "type": "elasticbeanstalk.storage.StorageProperties",
+    "sourceType": "elasticbeanstalk.storage.StorageProperties"
+  }],
+  "properties": [{
+    "name": "storage.location",
+    "type": "java.lang.String",
+    "description": "Folder location for storing files",
+    "sourceType": "elasticbeanstalk.storage.StorageProperties"
+  }],
+  "hints": []
+}

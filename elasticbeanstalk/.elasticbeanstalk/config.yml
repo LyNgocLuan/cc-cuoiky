@@ -1,0 +1,19 @@
+branch-defaults:
+  default:
+    environment: Custom-env
+environment-defaults:
+  Custom-env:
+    branch: null
+    repository: null
+global:
+  application_name: cloud_final
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:us-west-2::platform/Tomcat 8 with Java
+    8 running on 64bit Amazon Linux/2.6.0
+  default_region: us-west-2
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: null
+  workspace_type: Application
